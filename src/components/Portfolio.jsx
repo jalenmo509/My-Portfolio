@@ -1,17 +1,16 @@
 import React from "react";
-import Super from "../assets/portfolio/supersearch.jpg";
-import Pixel from "../assets/portfolio/pixeltags2.jpg";
+import Super from "../assets/portfolio/sp.jpeg";
+import Pixel from "../assets/portfolio/pix.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import Masonry from "../assets/portfolio/photoimg.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
-
+import Marvel from "../assets/portfolio/ra.jpeg";
+import Masonry from "../assets/portfolio/masonry.jpg";
+import Fruit from "../assets/portfolio/pf.png"
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: Super,
-      codeSrc: "https://magnificent-syrniki-e9f861.netlify.app/",
+      codeSrc: "https://heroenginejalen.netlify.app/",
     },
     {
       id: 3,
@@ -27,6 +26,16 @@ const Portfolio = () => {
       id: 5,
       src: Pixel,
       codeSrc: "https://warm-naiad-be48bf.netlify.app/",
+    },
+    {
+      id: 6,
+      src: Marvel,
+      codeSrc: "https://jalenmarvel.netlify.app/",
+    },
+    {
+      id: 7,
+      src: Fruit,
+      codeSrc: "https://github.com/jalenmo509/python_fruit_store",
     },
   ];
 

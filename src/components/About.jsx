@@ -14,25 +14,23 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          I am experienced in various web development technologies including
-          HTML, CSS, JavaScript, Python, Java, MySQL, MongoDB, and React JS. My
-          expertise in HTML and CSS has allowed me to create visually appealing
-          and responsive user interfaces, while my proficiency in JavaScript has
-          enabled me to add dynamic and interactive elements to my projects. I
-          have worked with Python and Java for server-side scripting and have
-          experience in database management using MySQL and MongoDB.
-          Furthermore, I am well-versed in React JS, a JavaScript library for
-          building user interfaces, and have used it to create performant and
-          scalable single-page applications. My ability to work with a range of
-          technologies has given me a comprehensive understanding of the full
-          stack development process, enabling me to build robust and efficient
-          web applications.
+          I have experience with different web development technologies like
+          HTML, CSS, JavaScript, Python, Java, MySQL, MongoDB, and React JS. I'm
+          proficient in creating visually appealing and responsive user
+          interfaces using HTML and CSS, and I can add dynamic and interactive
+          elements to projects using JavaScript. I've also used Python and Java
+          for server-side scripting and have knowledge of database management
+          using MySQL and MongoDB. Additionally, I'm familiar with React JS, a
+          JavaScript library for building user interfaces, and have used it to
+          create single-page applications that are performant and scalable. I
+          believe my exposure to a range of technologies has given me a good
+          understanding of the full-stack development process, and I'm eager to
+          continue learning and building robust web applications.
         </p>
 
         <br />
 
-        <p className="text-xl">
-        </p>
+        <p className="text-xl"></p>
       </div>
     </div>
   );

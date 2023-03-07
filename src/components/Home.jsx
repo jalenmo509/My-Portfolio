@@ -15,12 +15,13 @@ const Home = () => {
             Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            My name is Jalen Moses, i’m a full stack developer with experience
-            in designing and developing web applications. Looking for
-            challenging roles in web and mobile industry to enhance my skills
-            and provide my services to add value to the products of the
-            organization. Highly motivated self learner with a passion for
-            learning and keeping informed of the latest in technology.
+            Hello, my name is Jalen Moses and I'm an aspiring full-stack
+            developer. I have experience designing and developing web
+            applications, and I'm eager to continue learning and growing in the
+            field. I'm looking for entry-level roles in the web and mobile
+            industry where I can gain valuable experience and contribute to a
+            team. I'm highly motivated and passionate about technology, and I'm
+            committed to staying up-to-date with the latest advancements.
           </p>
 
           <div>

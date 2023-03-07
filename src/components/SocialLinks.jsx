@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill, BsX } from "react-icons/bs";
-import Resume from "../assets/resume.png";
+import Resume from "../assets/rs.jpeg";
 
 const SocialLinks = () => {
   const [showResume, setShowResume] = useState(false);
@@ -26,15 +25,6 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://github.com/jalenmo509",
-    },
-    {
-      id: 3,
-      child: (
-        <>
-          Mail <HiOutlineMail size={30} />
-        </>
-      ),
-      href: "jalen5moses@gmail.com",
     },
     {
       id: 4,
