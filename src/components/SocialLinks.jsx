@@ -1,11 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { BsFillPersonLinesFill, BsX } from "react-icons/bs";
-import Resume from "../assets/rs.jpeg";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
-  const [showResume, setShowResume] = useState(false);
-
   const links = [
     {
       id: 1,
@@ -27,27 +24,20 @@ const SocialLinks = () => {
       href: "https://github.com/jalenmo509",
     },
     {
-      id: 4,
+      id: 3,
       child: (
         <>
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      src: Resume,
-      style: "rounded-br-md",
-      download: true,
-      onClick: () => setShowResume(true),
+      href: "https://docs.google.com/document/d/12iC5kEWME-VBkPDPzd88CTcGu5v5BWTX1nON3SKuPbU/edit?usp=sharing",
     },
   ];
-
-  const handleCloseResume = () => {
-    setShowResume(false);
-  };
 
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>
-        {links.map(({ id, child, href, style, download, onClick }) => (
+        {links.map(({ id, child, href, style, onClick }) => (
           <li
             key={id}
             className={
@@ -59,7 +49,6 @@ const SocialLinks = () => {
             <a
               href={href}
               className="flex justify-between items-center w-full text-white"
-              download={download}
               target="_blank"
               rel="noreferrer"
               onClick={onClick}
@@ -69,19 +58,6 @@ const SocialLinks = () => {
           </li>
         ))}
       </ul>
-      {showResume && (
-        <div className="fixed top-0 left-0 w-screen h-screen flex justify-center items-center bg-gray-700 bg-opacity-75 z-50">
-          <div className="relative">
-            <button
-              className="absolute top-0 right-0 text-black p-2"
-              onClick={handleCloseResume}
-            >
-              <BsX size={30} />
-            </button>
-            <img src={Resume} alt="Resume" className="max-w-full max-h-full" />
-          </div>
-        </div>
-      )}
     </div>
   );
 };

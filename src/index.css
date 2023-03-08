@@ -11,3 +11,8 @@
     font-family: 'Raleway', sans-serif;
   }
 }
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
