@@ -1,1 +1,1 @@
-
+My portfolio website showcases my React JS projects, styled with Tailwind CSS for fast and responsive design. Visitors can view demos, check my social links, and use a contact form on any device. It's a comprehensive showcase of my skills, with easy ways to connect, no matter how visitors access the site.
